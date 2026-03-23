@@ -35,9 +35,9 @@ Visualization and Analysis
 
 ## PROGRAM
 
-### Name:NARENDHIRAN P
+### Name:Vaitheswaran N
 
-### Register Number: 212224230177
+### Register Number: 212224110059
 
 ```python
 import torch
@@ -91,14 +91,14 @@ model = DenoisingAutoencoder().to(device)
 criterion = nn.MSELoss()
 optimizer = optim.Adam(model.parameters(), lr=1e-3)
 
-print("Name: NARENDHIRAN P")
-print("Register Number: 212224230177")
+print("Name: Vaitheswaran N")
+print("Register No: 212224110059")
 summary(model, input_size=(1, 28, 28))
 
 def train(model, loader, criterion, optimizer, epochs=5):
     model.train()
-    print("Name: NARENDHIRAN P")
-    print("Register Number: 212224230177")
+    print("Name: Vaitheswaran N")
+    print("Register No: 212224110059")
     for epoch in range(epochs):
         running_loss = 0.0
         for images, _ in loader:
@@ -126,8 +126,8 @@ def visualize_denoising(model, loader, num_images=10):
     noisy_images = noisy_images.cpu().numpy()
     outputs = outputs.cpu().numpy()
 
-    print("Name: NARENDHIRAN P")
-    print("Register Number: 212224230177")
+    print("Name: Vaitheswaran N")
+    print("Register No: 212224110059")
     plt.figure(figsize=(18, 6))
 
     for i in range(num_images):

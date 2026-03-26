@@ -4,6 +4,7 @@
 To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
+To build and train a Denoising Autoencoder using PyTorch to remove noise from images. The goal is to reconstruct a clean image from a corrupted (noisy) input image. The MNIST dataset is used as a benchmark to demonstrate this image denoising capability. The dataset used in this code is the MNIST dataset. It's a large database of handwritten digits commonly used for training various image processing systems. Each image in the MNIST dataset is a grayscale image of a handwritten digit (0-9) with a size of 28x28 pixels.
 
 
 ## DESIGN STEPS
